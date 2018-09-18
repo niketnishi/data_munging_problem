@@ -18,7 +18,7 @@ class CreateDataStructure:
         return self.data_lst
 
 
-class MinimumTempSpread(CreateDataStructure):
+class ComputeOutput(CreateDataStructure):
     def find_minimum_index(self):
         for line in range(1, len(self.data_lst)):
             self.min_difference_lst.append(abs(float(self.data_lst[line][self.max_index]) -
@@ -37,5 +37,5 @@ class MinimumTempSpread(CreateDataStructure):
 
 
 if __name__ == '__main__':
-    print(MinimumTempSpread(1, 2).cal_min_temp_spread())
-    print(MinimumTempSpread(6, 8).min_goal_difference_team())
+    print(ComputeOutput(1, 2).cal_min_temp_spread())
+    print(ComputeOutput(6, 8).min_goal_difference_team())
