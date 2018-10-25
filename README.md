@@ -1,5 +1,7 @@
-####Source: http://codekata.com/kata/kata04-data-munging/
-
+#### Source:
+```
+http://codekata.com/kata/kata04-data-munging/
+```
 #### Part One: Weather Data
 
 In weather.dat you’ll find daily weather data for Morristown, NJ for June 2002. Download this text file, then write a
